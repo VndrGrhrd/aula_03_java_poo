@@ -5,6 +5,15 @@ public class Products {
     public double price;
     public int quantity;
 
+//    Sobrecarga = Varios contrutores para escolher
+
+    public Products(){}
+
+    public Products(String nome, double price){
+        this.name = nome;
+        this.price = price;
+    }
+
     public Products(String nome, double price, int quantity){
         this.name = nome;
         this.price = price;
