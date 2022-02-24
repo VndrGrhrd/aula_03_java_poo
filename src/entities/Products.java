@@ -8,7 +8,7 @@ public class Products {
     public Products(String nome, double price, int quantity){
         this.name = nome;
         this.price = price;
-        this.quantity = quantity
+        this.quantity = quantity;
     }
 
     public double TotalValueStock(){
